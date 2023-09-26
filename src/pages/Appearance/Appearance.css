@@ -1,0 +1,31 @@
+
+.Appearance{
+    display: on;
+
+}
+.Appearance li{
+    margin: 3.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Appearance li span:first-child i{
+    color:  #f2c10e;
+    margin-right: 1.4rem;
+}
+.Appearance li span:first-child{
+    text-transform: capitalize;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 4rem;
+}
+.Appearance li span:last-child{
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #f64445;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    text-align: right;
+}
