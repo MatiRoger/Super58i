@@ -44,7 +44,6 @@ const Appearance = () => {
 
     </ul>
     </>
-  )
-}
+
 
 export default Appearance
