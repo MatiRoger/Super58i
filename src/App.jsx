@@ -1,5 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import axios from 'axios'
 import SectionNav from './components/SectionNav/SectionNav'
 import SearchBar from './components/SearchBar/SearchBar'
 import Powerstats from './pages/Powerstats/Powerstats'
