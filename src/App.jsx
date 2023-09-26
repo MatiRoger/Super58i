@@ -6,6 +6,7 @@ import Powerstats from './pages/Powerstats/Powerstats'
 import Biography from './pages/Biography/Biography'
 import Connections from './pages/Connections/Connections'
 import Appearance from './pages/Appearance/Appearance'
+
 function App() {
 
   return (
