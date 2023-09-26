@@ -1,0 +1,14 @@
+.stats li span:first-child{
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 4rem;
+  }
+
+.stats li span:last-child{
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #f64445;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    text-align: right;
+}

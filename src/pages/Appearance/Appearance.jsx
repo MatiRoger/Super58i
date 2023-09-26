@@ -1,7 +1,7 @@
 import React from 'react'
 import './Appearance.css'
 
-const Appearance = () => {
+const Appearance = ({Gender,Race,Height,Weight,EyeColor,HairColor}) => {
   return (
     <>
     <ul className='tab-body-single Appearance'>
@@ -9,37 +9,37 @@ const Appearance = () => {
         <span>
           <i className='fas fa-star'></i>gender
         </span>
-        <span>Male</span>
+        <span>{Gender}</span>
       </li>
       <li>
         <span>
           <i className='fas fa-star'></i>race
         </span>
-        <span>Human</span>
+        <span>{Race}</span>
       </li>
       <li>
         <span>
           <i className='fas fa-star'></i>height
         </span>
-        <span>5' 10''</span>
+        <span>{Height[1]}</span>
       </li>
       <li>
         <span>
           <i className='fas fa-star'></i>weight
         </span>
-        <span>170 lb</span>
+        <span>{Weight[1]}</span>
       </li>
       <li>
         <span>
           <i className='fas fa-star'></i>eye-color
         </span>
-        <span>Blue</span>
+        <span>{EyeColor}</span>
       </li>
       <li>
         <span>
           <i className='fas fa-star'></i>hair-color
         </span>
-        <span>Black</span>
+        <span>{HairColor}</span>
       </li>
 
     </ul>

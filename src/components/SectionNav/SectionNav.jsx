@@ -13,9 +13,6 @@ const SectionNav = () => {
       <li className="nav-item">
         <Link className="sectionLink" aria-current="page" to="/appearance">APPEARANCE</Link>
       </li>
-      <li className="nav-item">
-        <Link className="sectionLink" aria-current="page" to="/connections">CONNECTIONS</Link>
-      </li>
     </ul>
   )
 }

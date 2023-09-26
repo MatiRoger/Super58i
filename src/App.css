@@ -16,8 +16,6 @@ section{
     background-color: #222222
 }
 .mainContainer div{
-  border: 2px solid white;
-  border-radius: 15px;
   background-color: rgba(240, 248, 255, 0.007);
   color: whitesmoke;
 }
@@ -41,4 +39,13 @@ section{
   box-shadow: none;
   transform: translate(3px, 3px);
 }
-
+.statsli span:first-child{
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 4rem;
+}
+.heroImg{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

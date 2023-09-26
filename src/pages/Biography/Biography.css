@@ -1,0 +1,12 @@
+.biography :first-child{
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 4rem;
+    color: whitesmoke;
+  }
+.biography p{
+  color: #ED213A;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
